@@ -6,7 +6,8 @@
     "RoleMapping": 1,
     "Role": 1,
     "meetup": 4,
-    "Employee": 2
+    "Employee": 3,
+    "Asset": 5
   },
   "models": {
     "User": {
@@ -24,7 +25,14 @@
       "3": "{\"name\":\"AWS meetup\",\"location\":\"Domlur\",\"id\":3}"
     },
     "Employee": {
-      "1": "{\"firstName\":\"Saurabh\",\"lastName\":\"Kumar\",\"id\":1}"
+      "1": "{\"firstName\":\"Saurabh\",\"lastName\":\"Kumar\",\"id\":1}",
+      "2": "{\"firstName\":\"Suman\",\"lastName\":\"Kumar\",\"id\":2}"
+    },
+    "Asset": {
+      "1": "{\"description\":\"Macbook Pro\",\"dateAcquired\":\"2019-09-08T10:45:23.534Z\",\"serialNumber\":\"12345\",\"purchasePrice\":120000,\"employeeId\":1,\"id\":1}",
+      "2": "{\"description\":\"Razer Mouse\",\"dateAcquired\":\"2019-09-08T10:45:23.534Z\",\"serialNumber\":\"8765456\",\"purchasePrice\":2500,\"employeeId\":1,\"id\":2}",
+      "3": "{\"description\":\"i Mac\",\"dateAcquired\":\"2019-09-09T10:45:23.534Z\",\"serialNumber\":\"987567232\",\"purchasePrice\":250000,\"employeeId\":2,\"id\":3}",
+      "4": "{\"description\":\"Samsung Galaxy\",\"dateAcquired\":\"2019-09-09T10:45:23.534Z\",\"serialNumber\":\"765123091\",\"purchasePrice\":80000,\"employeeId\":2,\"id\":4}"
     }
   }
 }

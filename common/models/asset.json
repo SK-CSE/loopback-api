@@ -20,7 +20,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "employee": {
+      "type": "belongsTo",
+      "model": "Employee",
+      "foreignKey": ""
+    }
+  },
   "acls": [],
   "methods": {}
 }
