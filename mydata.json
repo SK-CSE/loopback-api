@@ -1,0 +1,25 @@
+{
+  "ids": {
+    "User": 2,
+    "AccessToken": 2,
+    "ACL": 1,
+    "RoleMapping": 1,
+    "Role": 1,
+    "meetup": 3
+  },
+  "models": {
+    "User": {
+      "1": "{\"password\":\"$2a$10$of3cFWhgQY9c9XtQFqzdxOQZ/ACpVons88RmxM4ldXBKNHm8CKM36\",\"email\":\"saurabh@gmail.com\",\"id\":1}"
+    },
+    "AccessToken": {
+      "A4agFDFBZlDN6D1AzqY2BJXRrPS9pVGxBmgljGW9K6aZr4X1fB1k40UF0lw77gkd": "{\"id\":\"A4agFDFBZlDN6D1AzqY2BJXRrPS9pVGxBmgljGW9K6aZr4X1fB1k40UF0lw77gkd\",\"ttl\":1209600,\"created\":\"2019-09-08T09:11:28.343Z\",\"userId\":1}"
+    },
+    "ACL": {},
+    "RoleMapping": {},
+    "Role": {},
+    "meetup": {
+      "1": "{\"name\":\"Node JS meetup\",\"location\":\"HSR\",\"id\":1}",
+      "2": "{\"name\":\"React JS meetup\",\"location\":\"Koramangla\",\"id\":2}"
+    }
+  }
+}
