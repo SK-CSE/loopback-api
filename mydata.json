@@ -5,7 +5,8 @@
     "ACL": 1,
     "RoleMapping": 1,
     "Role": 1,
-    "meetup": 3
+    "meetup": 4,
+    "Employee": 2
   },
   "models": {
     "User": {
@@ -19,7 +20,11 @@
     "Role": {},
     "meetup": {
       "1": "{\"name\":\"Node JS meetup\",\"location\":\"HSR\",\"id\":1}",
-      "2": "{\"name\":\"React JS meetup\",\"location\":\"Koramangla\",\"id\":2}"
+      "2": "{\"name\":\"React JS meetup\",\"location\":\"Koramangla\",\"id\":2}",
+      "3": "{\"name\":\"AWS meetup\",\"location\":\"Domlur\",\"id\":3}"
+    },
+    "Employee": {
+      "1": "{\"firstName\":\"Saurabh\",\"lastName\":\"Kumar\",\"id\":1}"
     }
   }
 }

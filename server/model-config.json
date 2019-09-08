@@ -38,5 +38,9 @@
   "meetup": {
     "dataSource": "db",
     "public": true
+  },
+  "Employee": {
+    "dataSource": "db",
+    "public": true
   }
 }
