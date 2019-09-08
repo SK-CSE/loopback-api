@@ -1,0 +1,26 @@
+{
+  "name": "Asset",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "description": {
+      "type": "string"
+    },
+    "dateAcquired": {
+      "type": "date"
+    },
+    "serialNumber": {
+      "type": "string"
+    },
+    "purchasePrice": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

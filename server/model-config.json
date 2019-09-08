@@ -42,5 +42,9 @@
   "Employee": {
     "dataSource": "db",
     "public": true
+  },
+  "Asset": {
+    "dataSource": "db",
+    "public": true
   }
 }
