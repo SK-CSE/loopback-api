@@ -1,5 +1,6 @@
 # Loopback API
 
+```
 var methodNames = [
         'create',
         'upsert',
@@ -18,3 +19,4 @@ var methodNames = [
         'upsertWithWhere',
         'replaceOrCreate'
     ]
+```
