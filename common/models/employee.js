@@ -1,6 +1,39 @@
 'use strict';
 
+EmployeeDataManipulation(result) {
+  return "some modified data"
+}
+
+// TODO add winston logger
 module.exports = function (Employee) {
+  
+      Employee.on('dataSourceAttached', (obj) => {
+        
+        // override inbuild crud and use use actual function inside that
+        
+        let org_Employee_findById = loan.findById.bind(loan);
+        // override in build findById method
+        loan.findById = async function (id) {
+            try {
+                let result = await org_Employee_findById(id);
+                if (result) {
+                    let modified_result = EmployeeDataManipulation(result);
+                    return modified_result;
+                }
+                return result;
+            } catch (e) {
+                // logger.error({ "type": "Employee_findById", "error": e.message || e });
+                if (e.status && e.message) {
+                    throw err;
+                } else {
+                    const error = new Error("Internal Server Error");
+                    error.status = 500;
+                    throw error;
+                }
+            }
+        }
+    })
+  
     Employee.getAssetAmountForEmployee = async(id) => {
         var filter = {
             include: {
